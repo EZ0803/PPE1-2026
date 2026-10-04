@@ -31,3 +31,14 @@ J'ai eu du mal à accéder à mon historique complet car j'avais oublié qu'on d
 Vers la fin du cours, je réussi à y accéder grace à :
 
  - history 0 
+
+
+## Exercice Git Introduction
+
+J'ai commencé par me connecter à mon compte Github, avant de créer un nouveau dépôt. 
+Je n'ai rencontré aucun problème pour récuperer le dépôt sur mon terminal, avec git clone (url).
+J'avais déjà commencé un journal lors du dernier cours, mais ne comprenant pas tout à fait ce qu'il fallait faire
+et ayant peur de commettre des erreurs, j'ai décidé de créer le journal, puis ensuite de coller le contenu que j'avais 
+écrit précédemment. 
+Pour la modification de mon journal, je n'ai pas réussi à le faire au début, car je n'avais pas précisé qu'il fallait 
+l'ouvrir avec un éditeur de texte sur le terminal. Par la suite j'ai utilisé l'éditeur de texte nano pour modifier le contenu du journal. 
