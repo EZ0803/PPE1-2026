@@ -1,1 +1,50 @@
+Voici les commandes utilisées pour réaliser l'exercice : 
 
+## Exercice 1.
+###a) 
+
+Je me situe dans le document Exercice1 crée la semaine dernière. 
+
+echo "Annotations en 2016 :" > ../PPE1-2026/Exercices/comptes.txt
+grep -r -l "" ann/2016 | wc -l >> ../PPE1-2026/Exercices/comptes.txt
+
+echo "Annotations en 2017 :" >> ../PPE1-2026/Exercices/comptes.txt 
+grep -r -l "" ann/2017 | wc -l >> ../PPE1-2026/Exercices/comptes.txt
+
+echo "Annotations en 2018 :" >> ../PPE1-2026/Exercices/comptes.txt 
+grep -r -l "" ann/2018 | wc -l >> ../PPE1-2026/Exercices/comptes.txt
+
+###b)
+
+Je me situe maintenant dans Exercices 
+
+echo "Locations en 2016" > locations.txt 
+grep -r "Location" ../../Exercice1/ann/2016 | wc -l >> locations.txt
+cat locations.txt 
+
+echo "Locations en 2017" >> locations.txt
+grep -r "Location" ../../Exercice1/ann/2017 | wc -l >> locations.txt
+
+echo "Locations en 2018" >> locations.txt
+grep -r "Location" ../../Exercice1/ann/2018 | wc -l >> locations.txt
+
+cat locations.txt
+git add locations.txt
+git commit -m "locations count"
+git push
+
+
+##Exercice 2 
+
+###a) 
+
+grep -r "Location" ../../Exercice1/ann/2016 | cut -f 3 | sort | uniq -c | sort | tail -n 15 >> classement_2016.txt 
+cat classement_2016.txt 
+
+grep -r "Location" ../../Exercice1/ann/2017 | cut -f 3 | sort | uniq -c | sort | tail -n 15 >> classement_2017.txt
+
+grep -r "Location" ../../Exercice1/ann/2018 | cut -f 3 | sort | uniq -c | sort | tail -n 15 >> classement_2018.txt
+
+###b)
+
+grep -r "Location" ../../Exercice1/ann/2016/03 ../../Exercice1/ann/2017/03 ../../Exercice1/ann/2018/03| cut -f 3 | sort | uniq -c | sort | tail -n 15 > classement_location_mars.txt
