@@ -43,7 +43,7 @@ et ayant peur de commettre des erreurs, j'ai décidé de créer le journal, puis
 Pour la modification de mon journal, je n'ai pas réussi à le faire au début, car je n'avais pas précisé qu'il fallait 
 l'ouvrir avec un éditeur de texte sur le terminal. Par la suite j'ai utilisé l'éditeur de texte nano pour modifier le contenu du journal. 
 
-## Exercice pipeline
+### Exercice pipeline
 
 Je cherche à obtenir le nombre de fichier contenu dans chaque dossier par année. Je vais donc aller rechercher le 
 contenu des dossiers, puis ensuite je vais les compter. 
