@@ -123,3 +123,6 @@ Le résultat affiché me semble correct, donc je l'envoie donc dans un nouveau f
 
 J'ai rencontré des difficultés à comprendre le foctionnement des tags, mais en faisant quelques essaies, j'ai réussi à comprendre leur utilisation. 
 
+# Séance 3
+
+## exercices git
