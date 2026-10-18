@@ -1,3 +1,6 @@
+blablabblablb
+blabalalblabla
+
 # Journal de bord du projet encadré
 
 ## 30 septembre 2026 
@@ -126,3 +129,4 @@ J'ai rencontré des difficultés à comprendre le foctionnement des tags, mais e
 # Séance 3
 
 ## exercices git
+
