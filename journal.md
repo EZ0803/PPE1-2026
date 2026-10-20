@@ -131,3 +131,23 @@ J'ai rencontré des difficultés à comprendre le foctionnement des tags, mais e
 ## exercices git
 
 # Cette ligne doit rester après correction
+
+J'ai eu du mal à comprendre les consignes de ce devoir. J'ai été aidée par un autre
+élève. 
+J'ai commencé par modifier mon journal tel que c'est demandé dans les consignes. 
+Après avoir fait git push, je vérifie que tout est bon sur ghitub. 
+
+Pour récupérer l'identifiant SHA, on peut utiliser :
+
+ - git log --graph --oneline
+
+On peut aussi utiliser --all pour voir ceux qui sont cachés.
+
+ - git reset --soft 981e767
+
+pour reset au commit qu’on souhaite. Mais avec mes camarades on a trouvé des éléments de consignes compliqué à comprendre correctement. 
+
+ici en utilisant soft, en regardant l'historique des commit, la tête se trouve désormais sur I AM AN ERROR.
+Et le dernier commit n'est plus visible. On a utilisé soft, donc les changements ne sont pas supprimés, seul les commits le sont. 
+
+Je ne comprends pas quels sont les mauvais commits à faire. Rien n'est indiqué. Je n'arrive plus à comprendre les consignes à partir de la question 3. 
