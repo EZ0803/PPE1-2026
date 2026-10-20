@@ -151,3 +151,4 @@ ici en utilisant soft, en regardant l'historique des commit, la tête se trouve 
 Et le dernier commit n'est plus visible. On a utilisé soft, donc les changements ne sont pas supprimés, seul les commits le sont. 
 
 Je ne comprends pas quels sont les mauvais commits à faire. Rien n'est indiqué. Je n'arrive plus à comprendre les consignes à partir de la question 3. 
+
