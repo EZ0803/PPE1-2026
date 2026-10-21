@@ -1,6 +1,3 @@
-blablabblablb
-blabalalblabla
-
 # Journal de bord du projet encadré
 
 ## 30 septembre 2026 
@@ -150,5 +147,9 @@ pour reset au commit qu’on souhaite. Mais avec mes camarades on a trouvé des 
 ici en utilisant soft, en regardant l'historique des commit, la tête se trouve désormais sur I AM AN ERROR.
 Et le dernier commit n'est plus visible. On a utilisé soft, donc les changements ne sont pas supprimés, seul les commits le sont. 
 
-Je ne comprends pas quels sont les mauvais commits à faire. Rien n'est indiqué. Je n'arrive plus à comprendre les consignes à partir de la question 3. 
+Je ne comprends pas quels sont les mauvais commits à faire. Rien n'est indiqué. Je n'arrive plus à comprendre les consignes à partir de la question 3.
+
+Après la permanence du mercredi 21 octobre, j'ai compris que j'utilisais la mauvaise commande. Il faut donc utiliser revert et non reset. 
+git revert et on récupère l'identifiant du commit 
+
 
